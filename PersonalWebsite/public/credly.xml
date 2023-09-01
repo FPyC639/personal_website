@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<credentials>
+	<credential>
+		<title>Amazon AWS Cloud Practitioner</title>
+		<image>images/aws-certified-cloud-practitioner.png</image>
+		<link>https://www.credly.com/badges/35eafb79-f076-41c7-9462-73162c940eae/public_url</link>
+	</credential>
+	<credential>
+		<title>Google Data Analytics Certificate</title>
+		<image>images/google-data-analytics-certificate.2.png</image>
+		<link>https://www.credly.com/badges/d5691922-2074-42b1-aa7c-e8cd274ced96/public_url</link>
+	</credential>
+	<credential>
+		<title>[PCEP-30-01] PCEP – Certified Entry-Level Python Programmer</title>
+		<image>images\pcep-30-01-pcep-certified-entry-level-python-programmer.png</image>
+		<link>https://www.credly.com/badges/6f4d04ba-a8a1-4fd2-8cf0-9e139d4b0fcb/public_url</link>
+	</credential>
+	<!-- Add more credential entries here -->
+</credentials>
