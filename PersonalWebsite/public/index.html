@@ -6,10 +6,47 @@
     <title>Jose M Serra Jr.</title>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: lightskyblue;
+        }
+        .left-column {
+            background-color: royalblue; 
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .right-column {
+            background-color: cornflowerblue;
+            padding: 20px;
+            border-radius: 15px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Jose's Personal Webpage!</h1>
-
+    <h1 align="center">Welcome to Jose's Personal Webpage!</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 left-column">
+                <!-- Left column content here -->
+                <center>
+                    <img src="images/snapshot_head.png" align="middle" />
+                </center>
+                <ul>
+                    <li>
+                        <a href="index.html" style="color:black">Home</a>
+                    </li>
+                    <li>
+                        <a href="." style="color:black">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 right-column">
+                <!-- Right column content here -->
+                <p>This is the right column.</p>
+            </div>
+        </div>
+    </div>
     <div id="carouselCredentials" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ul class="carousel-indicators"></ul>

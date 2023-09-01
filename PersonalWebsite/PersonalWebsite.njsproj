@@ -37,6 +37,7 @@
     <Content Include="public\credly.xml">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\images\snapshot_head.png" />
     <Content Include="public\index.html" />
     <Content Include="server.js" />
     <Content Include="package.json" />
