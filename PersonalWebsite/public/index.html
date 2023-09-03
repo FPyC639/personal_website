@@ -7,24 +7,32 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
-        body{
-            background-color: lightskyblue;
+        body {
+            background-color: #0d3b66;
+            color: #f95738;
         }
         .left-column {
-            background-color: royalblue; 
+            background-color: #F4D35E;
             padding: 20px;
             border-radius: 15px;
         }
 
         .right-column {
-            background-color: cornflowerblue;
+            background-color: #FAF0CA;
             padding: 20px;
             border-radius: 15px;
         }
+        @media (max-width: 768px) {
+            .left-column p,
+            .right-column p {
+                font-size: 16px; /* Smaller font size for smaller screens */
+            }
+        }
     </style>
+    <!--<script src="resume.js"></script>-->
 </head>
 <body>
-    <h1 align="center">Welcome to Jose's Personal Webpage!</h1>
+    <h1 align="center">Jose M Serra Jr. Biography</h1>
     <div class="container">
         <div class="row">
             <div class="col-md-6 left-column">
@@ -37,16 +45,28 @@
                         <a href="index.html" style="color:black">Home</a>
                     </li>
                     <li>
-                        <a href="." style="color:black">Resume</a>
+                        <a href="resume/jose_serra_resume.pdf" id="resume-button" style="color:black">Resume</a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-6 right-column">
                 <!-- Right column content here -->
-                <p>This is the right column.</p>
+                <p>
+                    An inquisitive individual Jose Serra wants to apply his knowledge from the STEM field by helping individuals with his experience in Artificial Intelligence, Machine Learning, and Deep Learning. 
+                    Jose Serra has been to several research conferences, to name a few some include Great Minds in STEM (GMiS) in Pasadena, California, and the Garden State – Louis Stokes Association for Minority Participation (GS-LSAMP) in Rutgers University Newark and New Brunswick Campus, as well as at New Jersey Institute of Technology. 
+                    As a young Puerto Rican, Jose Serra involves himself with namely with research projects, and internships. 
+                    However, with the experience acquired at Panasonic Corporation of North America working with hardware, software, as well as seeing how both works together in real world applications. 
+                    While developing applications for Panasonic Jose Serra found himself inspired by the company’s founder Konosuke Matsushita. 
+                    Determined to make a difference for individuals that have neurodegenerative, neurocognitive, neurodevelopmental, and neurological conditions Jose is finding his way to achieving such a goal. 
+                    One quote by the founder of Panasonic is “Improving people’s lives through creating goods needed for society or through providing wholehearted services are vitally important.” 
+                    Taking that to heart Jose sees the importance of creating improved Magnetic Resonance Imaging (MRI) technology using AI/ML/DL technology.
+                </p>
             </div>
         </div>
     </div>
+    <!--<div id="resume-div" style="display: none;">
+        <iframe src="resume/jose_serra_resume.pdf" frameborder="0" width="100%" height="600"></iframe>
+    </div>-->
     <div id="carouselCredentials" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ul class="carousel-indicators"></ul>

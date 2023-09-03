@@ -39,6 +39,10 @@
     </Content>
     <Content Include="public\images\snapshot_head.png" />
     <Content Include="public\index.html" />
+    <Content Include="public\resume.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\resume\jose_serra_resume.pdf" />
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -46,6 +50,7 @@
   <ItemGroup>
     <Folder Include="public\" />
     <Folder Include="public\images\" />
+    <Folder Include="public\resume\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
