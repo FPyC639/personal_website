@@ -28,6 +28,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="public\publications.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="public\images\google-data-analytics-certificate.2.png" />
     <Content Include="public\images\pcep-30-01-pcep-certified-entry-level-python-programmer.png" />
     <Content Include="public\images\aws-certified-cloud-practitioner.png" />
@@ -39,6 +42,9 @@
     </Content>
     <Content Include="public\images\snapshot_head.png" />
     <Content Include="public\index.html" />
+    <Content Include="public\publications.xml">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="public\resume.js">
       <SubType>Code</SubType>
     </Content>
